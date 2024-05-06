@@ -4,9 +4,15 @@
   padding: 0;
 }
 
+html {
+  font: 16px;
+}
+
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  background-color: #eaeaea;
+  height: 1000000px;
 }
 
 h1 {
@@ -56,4 +62,27 @@ h1 {
 
 .container-4 {
   background-color: #9b59b6;
+}
+
+/* Navbar */
+
+nav {
+  margin: 2rem;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 100px;
+  border: 1px solid black;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
 }
