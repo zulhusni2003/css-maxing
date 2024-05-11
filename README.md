@@ -1,6 +1,6 @@
 # CSS Maxing Playground
 
-This repository serves as a playground for practicing CSS techniques and collaborating with others to add features using vanilla CSS.
+This repository serves as a playground for practicing CSS techniques and collaborating with others to add features using vanilla CSS & advanced CSS.
 
 ## About
 
