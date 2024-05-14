@@ -93,6 +93,7 @@ nav {
 .our-app-content {
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 
 .our-app-pills {
@@ -105,9 +106,32 @@ nav {
 }
 
 .our-app-title {
+  width: 400px;
 }
 
 .our-app-title h2 {
   font-size: 48px;
   font-weight: 400;
+}
+
+.span-download {
+  line-height: unset;
+  color: white;
+  background-color: #f12a2a;
+  translate: 90deg;
+}
+
+.app-features {
+  width: 50vh;
+  height: 50vh;
+  margin-inline: auto;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border: 1px solid transparent;
+  border-image: linear-gradient(#b5b5b5, #eeeeee);
+  border-image-slice: 1;
+  border-radius: 1000px;
 }
