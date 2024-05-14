@@ -117,8 +117,23 @@ nav {
 .span-download {
   line-height: unset;
   color: white;
-  background-color: #f12a2a;
-  translate: 90deg;
+  position: relative;
+  display: inline-block;
+  padding-inline: 20px;
+}
+
+.span-download::after {
+  width: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f12a2a; /* Highlighter color */
+  border-radius: 20px;
+  transform: rotate(5deg); /* Rotate the highlighter */
+  z-index: -1;
 }
 
 .app-features {
