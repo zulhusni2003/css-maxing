@@ -11,6 +11,7 @@ body {
   background-color: rgb(237, 237, 237);
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
 }
 
 .hero {
@@ -77,4 +78,36 @@ nav {
   position: absolute;
   bottom: -60px;
   border-radius: 12px;
+}
+
+/* Our App */
+
+.our-app {
+  width: 100vh;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-inline: auto;
+}
+
+.our-app-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-app-pills {
+  width: fit-content;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: white;
+  padding: 6px 12px;
+  border-radius: 100px;
+}
+
+.our-app-title {
+}
+
+.our-app-title h2 {
+  font-size: 48px;
+  font-weight: 400;
 }
