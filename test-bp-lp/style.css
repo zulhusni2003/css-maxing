@@ -8,7 +8,7 @@
 body {
   height: 100vh;
   width: 100vw;
-  background-color: rgb(237, 237, 237);
+  background-color: #f2f2f2;
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
@@ -17,7 +17,7 @@ body {
 .hero {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 90vw;
   height: 100%;
   margin: 32px auto 32px auto;
   align-items: center;
@@ -25,7 +25,7 @@ body {
 }
 
 .navbar {
-  width: 80%;
+  width: 80vw;
   background-color: white;
   margin: auto;
   top: 64px;
@@ -37,7 +37,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 24px;
+  margin: 12px;
   padding: 0 36px 0 36px;
   align-items: center;
 }
@@ -74,7 +74,7 @@ nav {
 .other-companies {
   background-color: white;
   height: 120px;
-  width: 90%;
+  width: 80vw;
   position: absolute;
   bottom: -60px;
   border-radius: 12px;
@@ -85,7 +85,7 @@ nav {
 .our-app {
   width: 100vh;
   display: flex;
-  width: 80%;
+  width: 80vw;
   justify-content: space-between;
   margin-inline: auto;
 }
@@ -106,12 +106,17 @@ nav {
 }
 
 .our-app-title {
+  margin-block: 16px;
   width: 400px;
 }
 
 .our-app-title h2 {
   font-size: 48px;
   font-weight: 400;
+}
+
+.our-app-description {
+  width: 400px;
 }
 
 .span-download {
@@ -132,7 +137,7 @@ nav {
   bottom: 0;
   background-color: #f12a2a; /* Highlighter color */
   border-radius: 20px;
-  transform: rotate(5deg); /* Rotate the highlighter */
+  transform: rotate(4deg); /* Rotate the highlighter */
   z-index: -1;
 }
 
@@ -149,4 +154,37 @@ nav {
   border-image: linear-gradient(#b5b5b5, #eeeeee);
   border-image-slice: 1;
   border-radius: 1000px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  background-color: rgb(199, 199, 199);
+  width: 80%;
+  margin: 12px auto;
+  border-radius: 16px;
+  justify-content: space-between;
+  padding: 5%;
+}
+/* 
+.footer > img {
+  max-width: 10%;
+  display: block;
+} */
+
+.row {
+  display: flex;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-content {
+  width: 40%;
+}
+.right-content {
+  gap: 24px;
+  width: 40%;
+  flex-shrink: 1;
 }
